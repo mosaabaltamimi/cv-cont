@@ -1,0 +1,502 @@
+
+<style>
+    body{
+        background-color: gray;
+    }
+
+    .a{
+         margin:100px 0 0 0;
+       line-height: 50px;
+        border-bottom: 2px solid gray;
+        
+    }
+    .main{
+        height: 1550px;
+        width: 1100px;
+        border: 1px solid black;
+        margin:0 auto;
+    }
+    
+    aside div{
+        margin-top: 40px;
+        width: 330px;
+        padding-left: 40px;
+
+    }
+    
+    #i{
+        margin-left: 30%;  
+        height: 145px;
+        width:100px ;
+        border:3px solid blue;
+        border-radius: 50%;
+
+    }
+    
+    img {  
+        margin-top: 7%;
+        margin-left: -30%;
+        border-radius: 50%;
+        object-fit: cover;
+}
+
+ #pa{ 
+    height: auto;
+    width: 280px;
+    margin-top: 20px;
+}
+
+
+.flex{
+    width:330px ;
+   display: flex;
+  justify-content: space-between;
+}
+
+.flex button{
+    margin-top: -40px;
+    height: 15px;
+    width: 10px;
+}
+
+
+span{
+display: inline-block;
+width: 100px;
+margin-top: 40px;
+}
+
+aside{
+    height:100%;
+    width:36%;
+    float:left;
+    background-color: black;
+    color:white;
+}
+
+
+.secondo{
+    height:100%;
+    width:64%;
+    float: right;
+    background-color: white;
+    color:black;
+}
+
+#void{
+    margin-top: 150px;
+}
+
+#id{   
+    padding-left: 100px;
+    margin-top: -90px;
+    background-color: purple;
+    height: 170px;
+}
+
+#name{
+    color:white;
+    height: 40px;
+    font-size: 40px;
+    font-weight: bold; 
+    padding-top: 40px;
+    margin-bottom: -10px;      
+
+
+}
+
+#ego{
+    color:white;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-left: 0px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+
+}
+
+
+ #info{
+    margin-left: 100px;
+    width: 500px;
+}
+
+
+#info .b{
+    margin:85px 0 0 0;
+       line-height: 50px;
+        border-bottom: 2px solid gray;
+}
+
+
+.b1a  {
+    width: 250px;
+    float: left;
+
+}
+
+.b1b{
+    width: 250px;
+    float: right;
+}
+
+.b1a p , .b1b p{
+    margin-top: 30px;
+}
+
+
+.kh{
+    margin-bottom: 100px;
+}
+
+#info .kh{
+    margin-bottom: -43px;
+}
+
+
+@media  screen and (max-width:900px){
+
+.main{width: 500px;
+    height: 1330px;
+}
+.secondo{width: 64%;}
+aside{width: 36%;}
+#i{ height: 140px;
+        width:120px ;
+    margin-left: 20%}
+img{    margin-top: 5px;
+        margin-left: -4%;}
+
+aside div{
+    height: auto;
+    padding-left:10px;
+    width: 200px;
+    margin-bottom: -10px;
+}
+
+.a{
+    margin-top:70px;
+    font-size: 20px;
+
+}
+
+aside h4{
+    font-size: 15px;
+}
+
+#pa{ 
+    font-size: 13px;
+    height: auto;
+    width: 170px;
+}
+
+span{
+    font-size: 13px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+#id{   
+    padding-left: 30px;}
+
+#name{
+    height: 30px;
+    font-size: 30px;
+    padding-top: 45px;
+}
+
+#ego{
+    font-size: 15px;
+}
+
+.secondo div{ 
+       margin-top:-20px;
+}
+
+#info{
+    margin-left: 30px;
+    width: 300px;
+}
+
+#info .b{
+    margin:85px 0 0 0;
+       line-height: 30px;
+        border-bottom: 2px solid gray;
+        font-size: 20px;
+}
+
+
+.b1a  {
+    font-size: 13px;
+    width: 150px;
+}
+
+.b1b{
+    font-size: 13px;
+    width: 150px;
+    }
+
+.b1a p , .b1b p{
+    margin-top: 30px;
+}
+
+
+.kh{
+    margin-bottom: 100px;
+}
+
+#info .kh{
+    margin-bottom: -43px;
+}
+
+#info h2{
+    font-size: 15px;
+}
+
+#info h3{
+    font-size: 13px;
+}
+
+}
+
+@media  screen and (max-width:600px){
+    .main{width: 450px;
+    height: 820px;
+}
+.secondo{width: 64%;}
+
+aside{width: 36%;}
+#i{ height: 140px;
+        width:123px ;
+    margin-left: 8%}
+img{    margin-top: 5px;
+        margin-left: -1%;}
+
+aside div{
+    height: auto;
+    padding-left:5px;
+    width: 140px;
+    margin-bottom: -60px;
+}
+
+.a{
+    line-height: 20px;
+    font-size: 15px;
+
+}
+
+aside h4{
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+
+#pa{ 
+    font-size: 8px;
+    height: auto;
+    width: 140px;
+    margin-top: 10px;
+
+}
+
+
+span{
+    font-size: 8px;
+    width: 100px;
+    margin-top: 8px;
+    margin-bottom: 2px;
+
+}
+
+#id{   
+    padding-left: 15px;
+    height: 140px;
+}
+
+#name{
+    height: 23px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+#ego{
+    font-size: 10px;
+}
+
+
+#info{
+    margin-left: 15px;
+    width: 250px;
+}
+
+#info .b{
+    margin:65px 0 0 0;
+       line-height: 20px;
+        font-size: 15px;
+}
+
+
+.b1a  {
+    font-size: 10px;
+    width: 120px;
+}
+
+.b1b{
+    font-size: 10px;
+    width: 120px;
+    }
+
+.b1a p , .b1b p{
+    margin-top: 30px;
+}
+
+
+#info .kh{
+    margin-bottom: -70px;
+}
+
+#info h2{
+    font-size: 10px;
+}
+
+#info h3{
+    font-size: 8px;
+}
+
+#info p{
+    font-size: 7px;
+
+}
+
+}
+
+@media  screen and (max-width:500px){
+
+    aside{
+        height: 1080px;
+        width:100%;
+        margin-top: 0px;
+        
+    }
+
+    .secondo{
+        float: none;
+        height: 1150px;
+        width:100%;
+        margin-top: 0px;
+    }
+
+    .main{
+        width: 300px;
+        height: 2230px;
+}
+
+
+#i{ height: 140px;
+        width:107px ;
+        margin-top: 10%;
+    margin-left: 26%;
+    }
+
+img{    margin-top: 5px;
+        margin-left: -17%;}
+
+aside div{
+    height: auto;
+    padding-left:25px;
+    width: 250px;
+    margin-bottom: 60px;
+
+}
+
+.a{
+    line-height: 30px;
+    font-size: 25px;
+
+}
+
+aside h4{
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+
+#pa{ 
+    font-size: 12px;
+    height: auto;
+    width: 200px;
+    margin-top: 15px;
+
+}
+
+span{
+    font-size: 12px;
+    width: 55px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    margin-right: 15px;
+
+}
+
+#id{   
+    margin-top: 1080px;
+    padding-left: 15px;
+    height: 120px;
+}
+
+#name{
+    height: 22px;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+#ego{
+    font-size: 15px;
+}
+
+
+#info{
+    margin-left: 15px;
+    width: 250px;
+}
+
+#info .b{
+    margin:80px 0 0 0;
+       line-height: 25px;
+        font-size: 25px;
+}
+
+
+
+#info .kh{
+    margin-bottom: -60px;
+}
+
+#info h2{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+#info h3{
+    font-size: 15px;
+}
+
+#info p{
+    font-size: 11px;
+}
+
+
+.b1a,.b1b{
+    width: 115px;
+}
+
+
+.b1a p , .b1b p{
+    margin-top: 30px;   
+}
+
+
+}
+
+
+
+</style>
